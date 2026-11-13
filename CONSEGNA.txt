@@ -1,0 +1,13 @@
+CONSEGNA GITHUB
+
+Domanda GitHub
+Repo https://github.com/apanteghini11112010-a11y/kit-neon-drift
+Ramo verifica
+Commit base 7f1acd8f84b8b473ddc497afdef8c44410f2fef8
+Commit CSS a5ed17ce02e9f6f42c08f71e673e5fbec7ffd5d9
+Pagina index.html
+Push riuscito; status post-push: ## verifica...origin/verifica (pulito).
+Online: README, HTML, CSS, SVG.
+
+Domanda spiega
+In style.css, prima c’era solo un commento segnaposto; dopo ho aggiunto il tema neon, le schede responsive, gli stili per pulsante e focus e il supporto alla preferenza di movimento ridotto. Il commit base ha registrato HTML, README e asset; il commit CSS ha registrato gli stili e aggiornato le istruzioni. Il commit ha salvato le modifiche nella cronologia Git locale; il push le ha inviate al ramo verifica su GitHub. Ho verificato su GitHub entrambi i commit e i file, quindi le modifiche non sono rimaste solo sul PC.
