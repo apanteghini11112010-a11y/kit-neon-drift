@@ -1,0 +1,1 @@
+Apri index.html nel browser per visualizzare la pagina. I file CSS e gli asset SVG devono rimanere nella stessa cartella. Pagina statica senza JavaScript; le illustrazioni sono asset originali del progetto.
