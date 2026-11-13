@@ -1,1 +1,158 @@
-/* Scrivi qui il tuo CSS. */
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #e2e8f0;
+  background: #080d19;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 1.6;
+  background:
+    radial-gradient(ellipse at 50% 0, rgb(103 232 249 / 13%), transparent 42rem),
+    #080d19;
+}
+
+.hero {
+  width: min(70rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) 0 3rem;
+  text-align: center;
+}
+
+.etichetta {
+  color: #67e8f9;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+}
+
+h1 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: clamp(3rem, 10vw, 6.5rem);
+  letter-spacing: -0.07em;
+  line-height: 1;
+  text-shadow: 0 0 2rem rgb(103 232 249 / 35%);
+}
+
+.slogan {
+  margin: 1.25rem 0;
+  color: #cbd5e1;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+}
+
+.copertina {
+  display: block;
+  width: min(100%, 50rem);
+  height: auto;
+  margin: 2rem auto;
+  overflow: hidden;
+  border: 1px solid rgb(103 232 249 / 35%);
+  border-radius: 1.25rem;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%), 0 0 2rem rgb(103 232 249 / 12%);
+}
+
+.pulsante {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border: 1px solid #67e8f9;
+  border-radius: 999px;
+  background: #67e8f9;
+  color: #08202a;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.pulsante:hover {
+  transform: translateY(-2px);
+  background: transparent;
+  color: #67e8f9;
+}
+
+.pulsante:focus-visible {
+  outline: 3px solid #f472b6;
+  outline-offset: 4px;
+}
+
+main {
+  display: grid;
+  width: min(68rem, calc(100% - 2rem));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 auto 4rem;
+}
+
+.scheda {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgb(148 163 184 / 20%);
+  border-radius: 1rem;
+  background: linear-gradient(145deg, rgb(30 41 59 / 92%), rgb(15 23 42 / 92%));
+  box-shadow: 0 1rem 2.5rem rgb(0 0 0 / 18%);
+}
+
+.scheda h2 {
+  margin-top: 0;
+  color: #a5f3fc;
+  font-size: 1.2rem;
+}
+
+.scheda ul {
+  padding-left: 1.25rem;
+}
+
+.scheda li::marker {
+  color: #f472b6;
+}
+
+.prezzo {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: rgb(244 114 182 / 12%);
+  color: #f9a8d4;
+  font-weight: 700;
+}
+
+.veicolo {
+  display: block;
+  width: 4rem;
+  height: auto;
+  margin: 1rem 0;
+  filter: drop-shadow(0 0 0.8rem rgb(103 232 249 / 25%));
+}
+
+footer {
+  padding: 0 1rem 1.5rem;
+  color: #94a3b8;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

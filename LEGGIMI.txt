@@ -1,1 +1,1 @@
-Estrai tutti i file nella stessa cartella. Apri la cartella in VS Code e index.html nel browser. Il CSS è vuoto: segui la consegna sulla piattaforma. Asset originali didattici creati con codice da Codex, riutilizzabili nel progetto. Nessun JavaScript.
+Apri index.html nel browser per visualizzare la pagina. I file CSS e gli asset SVG devono rimanere nella stessa cartella. Pagina statica senza JavaScript; le illustrazioni sono asset originali del progetto.
